@@ -19,9 +19,8 @@ class Animal {
 }
 
 class Dog extends Animal {
-    @Override
     public void speak() {
-        //super.speak(); // Llama al método speak() de la clase Animal
+        super.speak(); // Llama al método speak() de la clase Animal
         System.out.println("I am a dog.");
     }
 }
